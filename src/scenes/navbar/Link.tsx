@@ -12,7 +12,7 @@ const Link = ({
     selectedPage,
     setSelectedPage,
 }: PageProps) => {
-  const lowerCasePage = page.toLowerCase().replace(/ /g, "") as PageProps;
+  const lowerCasePage = page.toLowerCase().replace(/ /g, "") as PagesEnum;
 
   return (
     <AnchorLink
