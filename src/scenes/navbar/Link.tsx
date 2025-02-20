@@ -1,5 +1,5 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { PagesEnum } from "@/shared/types";
+import { PagesEnum } from "@/shared/types.ts";
 
 type PageProps = {
     page: string;

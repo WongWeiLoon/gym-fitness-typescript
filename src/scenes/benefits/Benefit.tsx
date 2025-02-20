@@ -1,4 +1,4 @@
-import { PagesEnum } from "@/shared/types";
+import { PagesEnum } from "@/shared/types.ts";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 

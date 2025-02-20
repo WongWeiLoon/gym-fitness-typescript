@@ -1,6 +1,6 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { PagesEnum } from './types';
+import { PagesEnum } from './types.ts';
 
 type ButtonProps = {
     children: React.ReactNode;

@@ -1,12 +1,12 @@
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import { motion } from "framer-motion";
 
-import Benefit from "./Benefit";
+import Benefit from "./Benefit.tsx";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 
-import HText from "@/shared/HText";
-import { PagesEnum } from "@/shared/types"
-import ActionButton from "@/shared/ActionButton";
+import HText from "@/shared/HText.tsx";
+import { PagesEnum } from "@/shared/types.ts";
+import ActionButton from "@/shared/ActionButton.tsx";
 
 type BenefitsProps = {
     setSelectedPage: (value: PagesEnum) => void;

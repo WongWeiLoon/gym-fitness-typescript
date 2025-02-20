@@ -2,11 +2,11 @@ import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 import Logo from "@/assets/Logo.png";
-import Link from "./Link";
+import Link from "./Link.tsx";
 
-import { PagesEnum } from "@/shared/types";
-import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
+import { PagesEnum } from "@/shared/types.ts";
+import useMediaQuery from "@/hooks/useMediaQuery.ts";
+import ActionButton from "@/shared/ActionButton.tsx";
 
 type NavbarProps = {
     isTopOfPage: boolean;
@@ -46,7 +46,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: NavbarProps) => 
                                     
                                 <div className={`${flexBetween} gap-8`}>
                                     <p>Sign In</p>
-                                    <ActionButton setSelectedPage={selectedPage}>Become a Member</ActionButton>
+                                    <ActionButton setSelectedPage={setSelectedPage}>Become a Member</ActionButton>
                                 </div>
                             </div>
                         ) : (
